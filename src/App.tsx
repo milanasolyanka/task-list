@@ -10,6 +10,7 @@ export type ITask = {
   isDone: boolean;
 }
 
+
 export const App: React.FC = () => {
   const [text, setText] = useState<string>('');
   const [tasks, setTasks] = useState<ITask[]>([]);
